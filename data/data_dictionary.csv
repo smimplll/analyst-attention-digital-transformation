@@ -1,0 +1,20 @@
+variable,description,unit_or_scale,role
+key,Уникальный идентификатор компания-год,text,identifier
+ticker,Биржевой тикер компании,text,identifier / cluster
+company,Название компании,text,identifier
+year,Год наблюдения,2020-2024,time
+sector,Отрасль компании,category,fixed effect
+digital,Индекс цифровой трансформации по словарю исследований,исходный индекс × 10,dependent variable
+digital_msu,Индекс цифровой трансформации по глоссарию МГУ,исходный индекс × 10,dependent variable
+all_body_mentions_company,Число аналитических публикаций с упоминанием компании в основном тексте,count,attention numerator
+all_title_mentions_company,Число аналитических публикаций с упоминанием компании в заголовке,count,alternative attention numerator
+log_assets,Натуральный логарифм совокупных активов,log(RUB),control
+roa,Рентабельность активов,ratio,control
+debt_to_assets,Отношение долга к активам,ratio,control
+revenue_growth,Темп роста выручки,ratio,control
+cash_to_assets,Отношение денежных средств к активам,ratio,control
+capex_to_assets,Отношение CAPEX к активам,ratio,control
+total_assets,Совокупные активы,RUB,raw control input
+revenue,Выручка,RUB,raw control input
+capex,Капитальные затраты,RUB,raw control input
+debt,Долг,source units may vary,audit-only raw field

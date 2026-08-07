@@ -1,0 +1,15 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+data/processed/*.csv
+results/figures/*.png
+results/tables/*.csv
+results/tables/*.html
+results/model_objects/
+
+*.log
+.DS_Store
+Thumbs.db
+

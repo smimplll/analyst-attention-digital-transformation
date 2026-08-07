@@ -1,0 +1,23 @@
+Package: analystattentiondigital
+Type: Project
+Title: Analyst Attention and Corporate Digital Transformation
+Version: 1.0.0
+Authors@R: person("Polina", "Simonenko", role = "aut")
+Description: Reproducible econometric analysis of analyst attention and
+    corporate digital transformation among Russian public companies in
+    2020-2024, starting from a prepared firm-year panel.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3.0)
+Imports:
+    car,
+    corrplot,
+    dplyr,
+    ggplot2,
+    lmtest,
+    plm,
+    readr,
+    sandwich,
+    stargazer,
+    tibble,
+    tidyr
